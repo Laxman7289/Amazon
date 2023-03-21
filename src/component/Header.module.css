@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    /* justify-content: space-between;
+     */
+}
+
+.one {
+
+    flex: 1;
+}
+
+.second {
+    display: inherit;
+}
+
+.img {
+    width: 5em;
+}
