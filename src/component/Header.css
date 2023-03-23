@@ -20,4 +20,24 @@
     width: 5em;
 } */
 
+.w3-content w3-section{
+    max-width: 500px;
+}
+.mySlides{
+    display: none;
+    width: 100%;
+}
 
+.imgset  {
+    padding: 20px
+    /* background: #efefef */
+    color: #000000
+  }
+  
+  .imgset  {
+    display: flex
+    alignItems: center
+    justifyContent: center
+    backgroundSize: cover
+    height: 400px
+  }

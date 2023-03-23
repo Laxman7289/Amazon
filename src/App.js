@@ -1,12 +1,15 @@
 import React from 'react'
-import Header from './component/Header'
-import { Add } from './try'
+import NavScrollExample from './component/Header'
+import 'react-slideshow-image/dist/styles.css'
+
+// import Header from './component/Header'
+// import { Add } from './try'
 
 
 const App = () => {
   return (
-    // <Add/>
-    <Header/>
+   
+    <NavScrollExample/>
   )
 }
 
