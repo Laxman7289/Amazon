@@ -1,0 +1,31 @@
+.product_container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto auto;
+    margin: -160px 0;
+    width: 100%;
+}
+
+.product_container .wrap {
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 0, .7);
+    z-index: 2;
+    margin-bottom: 20px;
+}
+.product_container .wrap .imgprod {
+    width: 100%;
+}
+
+.product_container .wrap h3 {
+    font-size: 1rem;
+}
+
+.product_container .wrap p {
+    color:rgb(250, 168, 62);
+    font-size: 0.9rem;
+}
+

@@ -1,41 +1,13 @@
-/* .container {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.one {
-
-    flex: 1;
-}
-
-.second {
-    display: inherit;
-    font-size: 1.5em;
-    font-weight: 600;
-    gap: 10px;
-}
-
-.img {
-    width: 5em;
-} */
-
- /* .w3-content w3-section{
-    max-width: 500px;
-}
-.mySlides{
-    display: none;
-    width: 100%;
-} */
 
 
-  .imgset  {
-    display: flex;
+ .slide-container .fadee{
+    position: relative;
+    place-items: center;
     align-items: center;
     justify-content: center;
-    background-size: cover;
-     }  
+ }
+
 .slide-container .imgset {
     width: 20rem;
     height: 18rem;
-}
+} 
