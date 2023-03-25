@@ -6,8 +6,22 @@
     align-items: center;
     justify-content: center;
  }
+ .slider{
+    position: relative;
+ }
+ .slideroverlay{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background: transparent;
+    background: linear-gradient(transparent, rgb(255, 253, 253) 90%);
+ }
 
 .slide-container .imgset {
-    width: 20rem;
-    height: 18rem;
+    height: 100vh;
+    object-fit: cover;
+
+    object-position: 50% 0;
 } 

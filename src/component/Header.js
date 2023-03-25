@@ -27,7 +27,7 @@ function NavScrollExample() {
     <>
     <Navbar bg="light" expand="md">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#"><img src='https://press.aboutamazon.in/static-files/08881e65-bd44-4aac-9f7e-c985bb8f1322'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -62,7 +62,8 @@ function NavScrollExample() {
       </Container>
     </Navbar>
 
- 
+<div className='slider'>
+  <div className='slideroverlay'></div>
     <div className="slide-container">
       <Fade className="fadee">
         {fadeImages.map((fadeImage, index) => (
@@ -72,7 +73,7 @@ function NavScrollExample() {
         ))}
       </Fade>
     </div>
-    
+    </div>
   </>
   );
 }
