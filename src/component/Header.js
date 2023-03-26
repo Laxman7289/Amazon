@@ -27,9 +27,19 @@ function NavScrollExample() {
     <>
     <Navbar bg="light" expand="md">
       <Container fluid>
-        <Navbar.Brand href="#"><img src='https://press.aboutamazon.in/static-files/08881e65-bd44-4aac-9f7e-c985bb8f1322'/></Navbar.Brand>
+        <Navbar.Brand href="#"><img src='https://www.citypng.com/public/uploads/preview/-11596409153ixy8eolhxq.png' style={{width:'10em'}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
+          
+        <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
@@ -49,15 +59,7 @@ function NavScrollExample() {
             </NavDropdown>
             
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+       
         </Navbar.Collapse>
       </Container>
     </Navbar>

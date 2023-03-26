@@ -1,4 +1,9 @@
 
+input.me-2.form-control{
+   margin-right: 10px;
+   padding: 4px 100px 2px 4px
+}
+
 
  .slide-container .fadee{
     position: relative;
@@ -16,7 +21,7 @@
     width: 100%;
     z-index: 2;
     background: transparent;
-    background: linear-gradient(transparent, rgb(255, 253, 253) 90%);
+    background: linear-gradient(transparent, rgb(255, 253, 253) 105%);
  }
 
 .slide-container .imgset {
