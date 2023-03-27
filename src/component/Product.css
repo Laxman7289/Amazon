@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* grid-template-columns:25%  25% 25%  25% ; */
-    margin: -420px 0;
+    margin: -300px 0;
     width: 100%;
     gap: 1rem;
 }
