@@ -1,15 +1,14 @@
-/* .container {
-    display: flex;
-    justify-content: space-between;
-    
+
+input.me-2.form-control{
+   margin-right: 10px;
+   padding: 4px 100px 2px 4px
 }
 
-.one {
 
-    flex: 1;
-}
+
 
 .second {
+    flex: 1;
     display: inherit;
     font-size: 1.5em;
     font-weight: 600;
@@ -18,26 +17,51 @@
 
 .img {
     width: 5em;
-} */
-/* 
+} 
+
 .w3-content w3-section{
     max-width: 500px;
 }
 .mySlides{
     display: none;
-    width: 100%;
 }
+ .slide-container .fadee{
+    position: relative;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .slider{
+    position: relative;
+ }
+ .slideroverlay{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background: transparent;
+    background: linear-gradient(transparent, rgb(255, 253, 253) 105%);
+ }
+
 
 .imgset  {
-    padding: 20px
-    /* background: #efefef */
-    /* color: #000000 */
-  /* } */
+    padding: 20px;
+     background : #efefef ;
+     color: #000000 ;
+   }
    
-  /* .imgset  {
-    display: flex
-    alignItems: center
-    justifyContent: center
-    backgroundSize: cover
-    height: 400px
-  } */
+   .imgset  {
+    display: flex;
+    alignItems: center;
+    justifyContent: center;
+    backgroundSize: cover;
+    height: 400px;
+  } 
+
+.slide-container .imgset {
+    height: 100vh;
+    object-fit: cover;
+
+    object-position: 50% 0;
+} 
