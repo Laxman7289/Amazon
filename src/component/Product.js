@@ -4,15 +4,24 @@ import './Product.css'
 
 
 const Product = () => {
+      
+        [
+          tittle="product name",
+          price="product price",
+
+        ]
+        
+
   return (
     
       <div className='product_container'>
-    <div className='wrap' >
+    <div id='wrap' >
       <img className='imgprod' src='https://cdn1.smartprix.com/rx-iVyp4t2Vm-w1200-h1200/Vyp4t2Vm.jpg' />
       <h3>product name</h3>
       <p>product price</p>
       <a href='#'> <button>Add to cart</button></a>
     </div>
+
      <div className='wrap'>
       <img className='imgprod' src='https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71AvQd3VzqL._AC._SR360,460.jpg' />
 

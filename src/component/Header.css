@@ -1,7 +1,6 @@
-
-input.me-2.form-control{
-   margin-right: 10px;
-   padding: 4px 100px 2px 4px
+input.me-2.form-control {
+    margin-right: 10px;
+    padding: 4px 100px 2px 4px
 }
 
 
@@ -17,24 +16,28 @@ input.me-2.form-control{
 
 .img {
     width: 5em;
-} 
+}
 
-.w3-content w3-section{
+.w3-content w3-section {
     max-width: 500px;
 }
-.mySlides{
+
+.mySlides {
     display: none;
 }
- .slide-container .fadee{
+
+.slide-container .fadee {
     position: relative;
     place-items: center;
     align-items: center;
     justify-content: center;
- }
- .slider{
+}
+
+.slider {
     position: relative;
- }
- .slideroverlay{
+}
+
+.slideroverlay {
     position: absolute;
     top: 0px;
     height: 100%;
@@ -42,26 +45,25 @@ input.me-2.form-control{
     z-index: 2;
     background: transparent;
     background: linear-gradient(transparent, rgb(255, 253, 253) 105%);
- }
+}
 
 
-.imgset  {
+.imgset {
     padding: 20px;
-     background : #efefef ;
-     color: #000000 ;
-   }
-   
-   .imgset  {
+    background: #efefef;
+    color: #000000;
+}
+
+.imgset {
     display: flex;
-    alignItems: center;
-    justifyContent: center;
-    backgroundSize: cover;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
     height: 400px;
-  } 
+}
 
 .slide-container .imgset {
     height: 100vh;
     object-fit: cover;
-
     object-position: 50% 0;
-} 
+}
