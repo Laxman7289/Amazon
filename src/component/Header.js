@@ -75,7 +75,7 @@ function NavScrollExample() {
           </div>
         ))}
       </Fade>
-    </div>
+    </div>       
     </div>
   </>
   );

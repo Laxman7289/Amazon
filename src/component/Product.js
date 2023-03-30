@@ -4,12 +4,6 @@ import './Product.css'
 
 
 const Product = () => {
-      
-        [
-          tittle="product name",
-          price="product price",
-
-        ]
         
 
   return (
