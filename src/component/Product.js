@@ -9,7 +9,7 @@ const Product = () => {
   return (
     
       <div className='product_container'>
-    <div id='wrap' >
+    <div className='wrap' >
       <img className='imgprod' src='https://cdn1.smartprix.com/rx-iVyp4t2Vm-w1200-h1200/Vyp4t2Vm.jpg' />
       <h3>product name</h3>
       <p>product price</p>

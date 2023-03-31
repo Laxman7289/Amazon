@@ -27,7 +27,7 @@ function NavScrollExample() {
     <>
     <Navbar bg="light" expand="md">
       <Container fluid>
-        <Navbar.Brand href="#"><img src='https://www.citypng.com/public/uploads/preview/-11596409153ixy8eolhxq.png' style={{width:'10em'}}/></Navbar.Brand>
+        <Navbar.Brand href="#"><img src='Amalogo.png' style={{width:'10em'}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           
