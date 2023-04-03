@@ -4,7 +4,6 @@ import Product from './Product'
 const Home = () => {
   return (
     <div>
-      {/* svbbebdxvsdvsdvdsdsv */}
       <Product/>
     </div>
   )

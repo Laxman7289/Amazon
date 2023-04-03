@@ -47,13 +47,21 @@ function NavScrollExample() {
           >
             <Nav.Link href="action1">Home</Nav.Link>
             <Nav.Link href="action2">Link</Nav.Link>
-            <Nav.Link href="action3">Action</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action4">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
+            <NavDropdown title="Language" id="navbarScrollingDropdown">
+              {/* <NavDropdown.Item href="#action4">Action</NavDropdown.Item> */}
+
+              <input type='radio'></input>
+              <label>Hindi</label><br></br>
+              <input type='radio'></input>
+              <label>English UK</label><br></br>
+              <input type='radio'></input>
+              <label>Urdu</label><br></br>
+              <input type='radio'></input>
+              <label>Marathi</label><br></br>
+              {/* <NavDropdown.Item href="#action5">
                 Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
+              </NavDropdown.Item> */}
+              {/* <NavDropdown.Divider /> */}
               <NavDropdown.Item href="#action5">
                 Something else here
               </NavDropdown.Item>
