@@ -4,7 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 const Link = () => {
   return (
-    <div >
+    <div  >
 
       <CardGroup >
         <Card>
@@ -54,7 +54,7 @@ const Link = () => {
       </CardGroup>
 
 
-      <CardGroup className='cardgap'>
+      <CardGroup>
         <Card>
           <Card.Img className='imgset' variant="top" src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/06/02/3c76f614489c1ae61962b4cd7bc6ab25_original.jpg" />
           <Card.Body>
