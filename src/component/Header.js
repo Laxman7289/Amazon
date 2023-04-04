@@ -53,11 +53,11 @@ function NavScrollExample() {
               {/* <NavDropdown.Item href="#action4">Action</NavDropdown.Item> */}
               
               
-              <input type='radio' name='language' value='Hindi' onChange={e=>setLanguage(e.target.value)}  />
-              <input type='radio' name='language' value='English UK' onChange={e=>setLanguage(e.target.value)}/>
-              <input type='radio' name='language' value='Urdu' onChange={e=>setLanguage(e.target.value)}/>
-              <input type='radio' name='language' value='Marathi' onChange={e=>setLanguage(e.target.value)}/>
-             
+              <input type='radio' name='language' value='Hindi' onChange={e=>setLanguage(e.target.value)}  /> Hindi<br></br>
+              <input type='radio' name='language' value='English UK' onChange={e=>setLanguage(e.target.value)}/>English UK<br></br>
+              <input type='radio' name='language' value='Urdu' onChange={e=>setLanguage(e.target.value)}/>Urdu<br></br>
+              <input type='radio' name='language' value='Marathi' onChange={e=>setLanguage(e.target.value)}/>Marathi<br></br>
+              
               {/* <NavDropdown.Item href="#action5">
                 Another action
               </NavDropdown.Item> */}

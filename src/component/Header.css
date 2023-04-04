@@ -60,7 +60,10 @@ input.me-2.form-control {
 }
 
 .slide-container .imgset {
-    height: 100vh;
+    height: 6 0vh;
     object-fit: cover;
     object-position: 50% 0;
+}
+.navdrop input {
+    padding: 3px;
 }
