@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Fade } from 'react-slideshow-image';
 
 import './Header.css'
+import { useState } from 'react';
 
 const fadeImages = [
     {
@@ -22,6 +23,7 @@ const fadeImages = [
   ];
 
 function NavScrollExample() {
+  const[language,setLanguage]=useState();
 
   return (
     <>
@@ -49,15 +51,13 @@ function NavScrollExample() {
             <Nav.Link href="action2">Link</Nav.Link>
             <NavDropdown title="Language" id="navbarScrollingDropdown">
               {/* <NavDropdown.Item href="#action4">Action</NavDropdown.Item> */}
-
-              <input type='radio'></input>
-              <label>Hindi</label><br></br>
-              <input type='radio'></input>
-              <label>English UK</label><br></br>
-              <input type='radio'></input>
-              <label>Urdu</label><br></br>
-              <input type='radio'></input>
-              <label>Marathi</label><br></br>
+              
+              
+              <input type='radio' name='language' value='Hindi' onChange={e=>setLanguage(e.target.value)}  />
+              <input type='radio' name='language' value='English UK' onChange={e=>setLanguage(e.target.value)}/>
+              <input type='radio' name='language' value='Urdu' onChange={e=>setLanguage(e.target.value)}/>
+              <input type='radio' name='language' value='Marathi' onChange={e=>setLanguage(e.target.value)}/>
+             
               {/* <NavDropdown.Item href="#action5">
                 Another action
               </NavDropdown.Item> */}
