@@ -41,3 +41,10 @@
     background-color:rgb(250, 168, 62); 
     box-shadow: 0 0 10px rgb(0, 0, .6);
 }
+
+@media screen and  (max-width:500px) { 
+    .product_container{
+        border-radius: 15px;
+        background-color: aquamarine;
+    }
+}
