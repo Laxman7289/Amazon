@@ -1,13 +1,6 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Fade } from 'react-slideshow-image';
-
 import './Header.css'
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const fadeImages = [
     {
@@ -23,63 +16,42 @@ const fadeImages = [
   ];
 
 function NavScrollExample() {
-  const[language,setLanguage]=useState();
 
   return (
     <>
-    <Navbar bg="light" expand="md">
-      <Container fluid>
-        <Navbar.Brand href="#"><img src='Amalogo.png' style={{width:'10em'}}/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          
-        <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll 
-          >
-            <Nav.Link href="action1">Home</Nav.Link>
-            <Nav.Link href="action2">Link</Nav.Link>
-            <NavDropdown title="Language" id="navbarScrollingDropdown">
-              {/* <NavDropdown.Item href="#action4">Action</NavDropdown.Item> */}
-              
-              
-              <input type='radio' name='language' value='Hindi' onChange={e=>setLanguage(e.target.value)}  /> Hindi<br></br>
-              <input type='radio' name='language' value='English UK' onChange={e=>setLanguage(e.target.value)}/>English UK<br></br>
-              <input type='radio' name='language' value='Urdu' onChange={e=>setLanguage(e.target.value)}/>Urdu<br></br>
-              <input type='radio' name='language' value='Marathi' onChange={e=>setLanguage(e.target.value)}/>Marathi<br></br>
-              
-              {/* <NavDropdown.Item href="#action5">
-                Another action
-              </NavDropdown.Item> */}
-              {/* <NavDropdown.Divider /> */}
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            
-          </Nav>
-       
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#">Navbar</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Service</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">About</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Contact</a>
+        </li>
+       </ul>
+      
+    </div>
+  </div>
+</nav>
 
-<div className='slider'>
-  <div className='slideroverlay'></div>
-    <div className="slide-container">
-      <Fade className="fadee">
+<div classNameName='slider'>
+  <div classNameName='slideroverlay'></div>
+    <div classNameName="slide-container">
+      <Fade classNameName="fadee">
         {fadeImages.map((fadeImage, index) => (
           <div key={index}>
-            <img className='imgset' style={{ width: '100%' }} src={fadeImage.url} />
+            <img classNameName='imgset' style={{ width: '100%' }} src={fadeImage.url} />
           </div>
         ))}
       </Fade>
