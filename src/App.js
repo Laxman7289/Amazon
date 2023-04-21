@@ -5,10 +5,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavScrollExample from './component/Header'
 import 'react-slideshow-image/dist/styles.css'
 import Home from './component/Home'
-import About from './component/About'
-import Contact from './component/Contact'
-import Service from './component/Service'
-// import Link from './component/Link'
+
+import Link from './component/Link'
 
 
 const App = () => {
@@ -18,10 +16,8 @@ const App = () => {
       < BrowserRouter>
         <Routes>
           <Route path="/Home" element={<Home />} />
-          <Route path="/Service" element={<Service />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          {/* <Route path="action2" element={<Link />} /> */}
+         
+          <Route path="action2" element={<Link />} />
         </Routes>
 
       </BrowserRouter>
